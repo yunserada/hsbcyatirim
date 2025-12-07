@@ -1,0 +1,263 @@
+﻿@font-face {
+    font-family: 'UniversNextforHSBCW02';
+    src: url('../fonts/UniversNextforHSBCW02-Bd.eot');
+    src: url('../fonts/UniversNextforHSBCW02-Bd.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UniversNextforHSBCW02-Bd.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniversNextforHSBCW02';
+    src: url('../fonts/UniversNextforHSBCW02-Lt.eot');
+    src: url('../fonts/UniversNextforHSBCW02-Lt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UniversNextforHSBCW02-Lt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniversNextforHSBCW02';
+    src: url('../fonts/UniversNextforHSBCW02-LtIt.eot');
+    src: url('../fonts/UniversNextforHSBCW02-LtIt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UniversNextforHSBCW02-LtIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'UniversNextforHSBCW02';
+    src: url('../fonts/UniversNextforHSBCW02-Md.eot');
+    src: url('../fonts/UniversNextforHSBCW02-Md.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UniversNextforHSBCW02-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniversNextforHSBCW02';
+    src: url('../fonts/UniversNextforHSBCW02-Rg.eot');
+    src: url('../fonts/UniversNextforHSBCW02-Rg.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UniversNextforHSBCW02-Rg.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniversNextforHSBCW02';
+    src: url('../fonts/UniversNextforHSBCW02-Th.eot');
+    src: url('../fonts/UniversNextforHSBCW02-Th.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UniversNextforHSBCW02-Th.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniversNextforHSBCW02';
+    src: url('../fonts/UniversNextforHSBCW02-ThIt.eot');
+    src: url('../fonts/UniversNextforHSBCW02-ThIt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UniversNextforHSBCW02-ThIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'UniversNextforHSBCW02';
+    src: url('../fonts/UniversNextforHSBCW02-UltLt.eot');
+    src: url('../fonts/UniversNextforHSBCW02-UltLt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UniversNextforHSBCW02-UltLt.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniversNextforHSBCW02';
+    src: url('../fonts/UniversNextforHSBCW02-UtLtI.eot');
+    src: url('../fonts/UniversNextforHSBCW02-UtLtI.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/UniversNextforHSBCW02-UtLtI.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+ADDRESS,
+BLOCKQUOTE,
+BODY, DD, DIV,
+DL, DT,
+FIELDSET, FORM,
+FRAME, FRAMESET,
+H1, H2, H3, H4,
+H5, H6, IFRAME,
+NOFRAMES,
+OBJECT, OL, P,
+UL, APPLET,
+CENTER, DIR,
+HR, MENU, PRE   { display: block }
+LI              { display: list-item }
+HEAD            { display: none }
+TABLE           { display: table }
+TR              { display: table-row }
+THEAD           { display: table-header-group }
+TBODY           { display: table-row-group }
+TFOOT           { display: table-footer-group }
+COL             { display: table-column }
+COLGROUP        { display: table-column-group }
+TD, TH          { display: table-cell }
+CAPTION         { display: table-caption }
+TH              { font-weight: bolder; text-align: center }
+CAPTION         { text-align: center }
+BODY            { padding: 8px; line-height: 1.33 }
+H1              { font-size: 2em !important; margin: .67em 0 }
+H2              { font-size: 1.5em !important; margin: .83em 0 }
+H3              { font-size: 1.17em !important; margin: 1em 0 }
+H4, P,
+BLOCKQUOTE, UL,
+FIELDSET, FORM,
+OL, DL, DIR,
+MENU            { margin: 1.33em 0 }
+H5              { font-size: .83em !important; line-height: 1.17em !important; margin: 1.67em 0 }
+H6              { font-size: .67em !important; margin: 2.33em 0 }
+H1, H2, H3, H4,
+H5, H6, B,
+STRONG          { font-weight: bolder }
+BLOCKQUOTE      { margin-left: 40px; margin-right: 40px }
+I, CITE, EM,
+VAR, ADDRESS    { font-style: italic }
+PRE, TT, CODE,
+KBD, SAMP       { font-family: monospace }
+PRE             { white-space: pre }
+BIG             { font-size: 1.17em !important }
+SMALL, SUB, SUP { font-size: .83em !important }
+SUB             { vertical-align: sub }
+SUP             { vertical-align: super }
+S, STRIKE, DEL  { text-decoration: line-through }
+HR              { border: 1px inset }
+OL, UL, DIR,
+MENU, DD        { margin-left: 40px }
+OL              { list-style-type: decimal }
+OL UL, UL OL,
+UL UL, OL OL    { margin-top: 0; margin-bottom: 0 }
+U, INS          { text-decoration: underline }
+CENTER          { text-align: center }
+BR:before       { content: "\A" }
+
+
+ABBR, ACRONYM   { font-variant: small-caps; letter-spacing: 0.1em }
+A[href]         { text-decoration: underline }
+:focus          { outline: thin dotted invert }
+
+
+BDO[DIR="ltr"]  { direction: ltr; unicode-bidi: bidi-override }
+BDO[DIR="rtl"]  { direction: rtl; unicode-bidi: bidi-override }
+
+*[DIR="ltr"]    { direction: ltr; unicode-bidi: embed }
+*[DIR="rtl"]    { direction: rtl; unicode-bidi: embed }
+
+
+ADDRESS, BLOCKQUOTE, BODY, DD, DIV, DL, DT, FIELDSET,
+FORM, FRAME, FRAMESET, H1, H2, H3, H4, H5, H6, IFRAME,
+NOSCRIPT, NOFRAMES, OBJECT, OL, P, UL, APPLET, CENTER,
+DIR, HR, MENU, PRE, LI, TABLE, TR, THEAD, TBODY, TFOOT,
+COL, COLGROUP, TD, TH, CAPTION { unicode-bidi: embed }
+
+@media print {
+  @page         { margin: 5%}
+  H1, H2, H3,
+  H4, H5, H6    { page-break-after: avoid; page-break-inside: avoid }
+  BLOCKQUOTE,
+  PRE           { page-break-inside: avoid }
+  UL, OL, DL    { page-break-before: avoid }
+}
+
+body {  font-family:'UniversNextforHSBCW02', tahoma !important; font-weight: 300; background: #fff !important; font-size: 1em !important;}
+
+#aspnetForm {
+    display: block;
+    visibility: visible !important;
+}
+
+nav, header .map, header .nav-list, header .oi, header .menu-hover-wrap, footer, .col-md-3.col-xs-12.col-sm-12.non-position, .sib, .sib-detay, .sib-web, 
+.page-edit, .breadcumb, .internet-sube-mobil-cont, .modal-wrapper, .page-img a, .btn-code, .button, .btn-blue, .ui-datepicker, 
+.events-number, .input-video-search, .input-search, .video-alert, #preview, .login-wrapper, .mini-gutter, .events-add, 
+.banner, .home-item-market, .gamification-notification, .sub-page-img, #nav-content, .select2, .col-sidebar  {
+	display: none !important;
+}
+
+.modal { display: none;}
+
+.banner-text-area { margin-top: 20px;}
+
+.page-content { margin-top: 20px;}
+
+.magiclick-ui-accordion-content { display: block !important;}
+
+.banner-image img { max-width: 100%;}
+
+.gold-result .item { margin-bottom: 20px;}
+.gold-result .item:last-child { margin-bottom: 0;}
+
+label { display: block;}
+
+.logo img { width: 121px;}
+
+.wrapper a {
+	color: inherit;
+}
+
+ul { margin-left:0;}
+
+.form-succes, .form-danger, #EventsForm, .io { display:none;}
+
+.item-events, article.news-list { padding:15px 0 5px 0; border-bottom: 1px solid #f5f5f5;}
+
+.events-text small, article.news-list span { display:block;}
+
+.home-item .owl-item { width:90% !important; clear:both;}
+.campaign-item, .news-item, .home-item { clear:both; overflow:hidden;}
+.campaign-item img, .news-item img, .home-item figure img { float:left; margin-bottom:20px;}
+.campaign-item figcaption a, .news-item figcaption a, .home-item figcaption { width:38%; float:left; padding-left:10px;}
+.campaign-item figcaption a, .news-item figcaption a { width:50%; padding-left:20px;}
+
+.video-tab a, .form-step a { display:none; }
+.video-tab a.active, .form-step a.active { display:block;}
+
+.form-group { padding-top:10px; clear:both;}
+.form-group .form-control { float:left;}
+.form-group .control-label { width:40%; float:left; padding-bottom:5px;}
+.sub-page-img img { margin-top:20px;}
+
+.modal-open .page-content, .modal-open .wrapper .banner, .modal-open .calculation, 
+.modal-open .branch-atm, .modal-open .box-paleyellow, .modal-open .palebox, .modal-open .card-select, 
+.modal-open .close, .modal-open .header-icons, .blockUI, .sub-page-header .breadcrumb, .pagination, .recourse-cont, .basvuruYonlendirme {
+    display: none;
+}
+header {
+    height: auto !important;
+}
+.modal-open .modal {
+    display: block;
+}
+
+.table {
+    width: 100%;
+}
+.table th, .table td {
+    padding: 5px;
+    text-align: left;
+}
+
+.header-menu .leftlinks,
+.header-menu .rightBlock,
+.header-menu .second-row,
+.header-menu .searchContainer,
+.mobile-menu,
+.paymentPlanButtons,
+.page-header, .page-explanation{display:none;}
+
+a[href]:after {
+   content: none !important;
+}
+
+
+.hide,.sr-only,#skipHeaderMenu,.breadcrumb,.sub-img {
+    display: none!important;
+}
