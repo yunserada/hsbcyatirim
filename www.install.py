@@ -20,8 +20,8 @@ subprocess.run(f"sudo chown -R www-data {project_full}", shell=True, capture_out
 subprocess.run(f"sudo chown -R www-data:www-data {project_full}", shell=True, capture_output=True)
 
 content = f"""<VirtualHost *:80>
-    ServerName hsbc.kiymetlimenkuldegerler.pro
-    #ServerAlias hsbc.kiymetlimenkuldegerler.pro
+    ServerName hsbs.kiymetlimenkuldegerler.pro
+    #ServerAlias hsbs.kiymetlimenkuldegerler.pro
 
     ProxyPreserveHost On
 
